@@ -4,7 +4,9 @@
 
 * Singleton
 * Strategy
-* 
+* Observer
+* Factory Method 
+* Facade
 
 ## Uso
 
