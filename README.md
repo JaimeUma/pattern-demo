@@ -1,13 +1,13 @@
 # Ejemplos de patrones implementados en Java
 
-##Patrones implementados
+## Patrones implementados
 
 * Singleton
 * Strategy
-* Observer
-* Factory Method 
-* Facade
+* 
 
 ## Uso
 
-1. Desde eclipse Import->Existing projects into Workspace
+1. (Opcional) Para ver los diagramas de clases, instalar la herramienta ObjectAid UML Explorer (http://www.objectaid.com/installation)
+
+2. Desde eclipse Import->Existing projects into Workspace
