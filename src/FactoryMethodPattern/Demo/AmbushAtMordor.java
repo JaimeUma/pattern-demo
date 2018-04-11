@@ -11,7 +11,7 @@ public class AmbushAtMordor {
 
         String[] attackers = { "orc", "uruk-hai", "orc", "uruk-hai",
                 "cave-troll", "uruk-hai", "cave-troll", "orc" };
-        EnemyFactory mordor = new EnemyFactory();
+        EnemyFactory mordor = new MyEnemyFactory();
         ArrayList<Enemy> horde = new ArrayList<Enemy>();
         for (int i = 0; i < attackers.length; i++) {
             horde.add(mordor.makeEnemy(attackers[i]));

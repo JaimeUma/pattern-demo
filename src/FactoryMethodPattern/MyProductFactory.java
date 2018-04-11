@@ -1,8 +1,9 @@
 package FactoryMethodPattern;
 
-public class Factory {
+public class MyProductFactory implements ProductFactory {
 
-    public Product makeProduct(String name) {
+    @Override
+	public Product makeProduct(String name) {
         switch (name) {
         case "one":
             return new ProductOne();

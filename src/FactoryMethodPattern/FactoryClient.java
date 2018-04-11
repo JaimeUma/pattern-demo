@@ -4,7 +4,7 @@ public class FactoryClient {
 
     public static void main(String[] args) {
 
-        Factory productFactory = new Factory();
+        ProductFactory productFactory = new MyProductFactory();
         Product p = productFactory.makeProduct(args[0]);
         if (p!= null) {
         p.doStuff();
